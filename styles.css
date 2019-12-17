@@ -1,0 +1,148 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Source Sans Pro', sans-serif;    
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+.container{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   width: 98vw;
+   height: 97vh;
+}
+.inner{
+    width: 90vw;
+    height: 93vh;
+    background-color: rgba(15, 185, 149, 0.15);
+    border-radius: 10px;
+}
+.title{
+    width: 90vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(6, 234, 41, 0.31);
+    color: #ffffff;
+}
+.title h3{
+    padding-left: 8%;
+    font-size: 2em;
+}
+.content{
+    border-bottom: 1px solid rgb(226, 172, 73);
+    height: 37vh;
+    padding: 150px;
+    margin-left: -350px;
+    padding-bottom: 50px;
+}
+.txt{
+    background-color: #fffefe;
+    margin-top: 15%;
+    margin-left: 8%;
+    width: 28vw;
+   
+}
+.fill{
+    padding-left: 50px;
+}
+.dates{
+    width: 10vw; 
+    color: black; 
+}
+.txt1{
+    background-color: #fffefe;
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 28vw;
+}
+.txt1 span{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.glyphicon{
+color:black;
+font-size: 18px;
+}
+.content input{
+    width: 22vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+.content input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.content2 input{
+    width: 11vw;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 0;
+}
+.content2 input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+.radios{
+   
+  display: flex;
+  margin-left: -70px;
+  margin-bottom: -230px;
+ margin-right: 10px;
+}
+.language{
+    margin-bottom: -500px;
+    margin-left: -120px;
+    color: black;
+    display: ruby;
+     
+}
+
+.radios h4{
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
+    color: #868585;
+}
+.radios label{
+    font-size: 1.3em;
+    color: #8e8a8a;
+}
+.radios input{
+    margin-left: 8%;
+    margin-right: 2%;
+}
+.ckbox{
+   
+    margin-bottom: -780px;
+     color: black;
+  
+     
+}
+.ckbox input{
+    margin-left: 8%;
+}
+.ckbox span{
+    font-size: 1.3em;
+    margin-left: 3%;
+}
+.btn{
+   margin-bottom: -1050px;
+  right: 60px;
+  
+  
+}
+
+.btn input:hover{
+    background-color: #44ff44;
+}
+
+
